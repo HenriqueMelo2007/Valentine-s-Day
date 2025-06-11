@@ -9,7 +9,6 @@ body {
   background: #000;
   position: relative;
   overflow: hidden;
-  font-family: sans-serif;
 }
 
 #animation-container {
@@ -24,11 +23,15 @@ body {
   line-height: 1.5;
 }
 
+#animated-text {
+  font-family: 'Borel';
+}
+
 #music-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #ff4081;
+  background-color: #006994;
   color: white;
   border: none;
   border-radius: 50%;
@@ -36,12 +39,8 @@ body {
   height: 50px;
   font-size: 20px;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(255, 64, 129, 0.5);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.9);
   transition: background 0.3s;
-}
-
-#music-button:hover {
-  background-color: #e91e63;
 }
 
 div {

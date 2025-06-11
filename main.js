@@ -27,7 +27,7 @@ const music = document.getElementById('love-music')
 musicButton.addEventListener('click', () => {
   if (music.paused) {
     music.play()
-    musicButton.textContent = '⏸️'
+    musicButton.textContent = '🎶'
   } else {
     music.pause()
     musicButton.textContent = '🎵'
@@ -35,11 +35,11 @@ musicButton.addEventListener('click', () => {
 })
 
 const phrases = [
-  'Desde que te conheci, tudo mudou.',
-  'Seu sorriso ilumina os meus dias.',
-  'Cada momento ao seu lado é mágico.',
-  'Quero viver muitos mais ao seu lado.',
-  'Feliz Día del Amor y la Amistad! ❤️'
+  'Día del Amor y la Amistad!',
+  'Día del Amor y la Amistad!',
+  'Día del Amor y la Amistad!',
+  'Día del Amor y la Amistad!',
+  'Día del Amor y la Amistad!',
 ]
 
 const textElement = document.getElementById('animated-text')
