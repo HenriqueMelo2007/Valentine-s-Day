@@ -1,25 +1,9 @@
-document.addEventListener('mousemove', function (e) {
-  let body = document.querySelector('body')
-  let flower = document.createElement('div')
-  let x = e.offsetX
-  let y = e.offsetY
-
-  flower.style.left = x + 'px'
-  flower.style.top = y + 'px'
-
-  let size = Math.random() * 50
-  flower.style.width = 20 + size + 'px'
-  flower.style.height = 20 + size + 'px'
-
-  let rotation = Math.random() * 360
-  flower.style.transform = `rotate(${rotation}deg)`
-
-  body.appendChild(flower)
-
-  setTimeout(function () {
-    flower.remove()
-  }, 4000)
-})
+onload = () => {
+  const c = setTimeout(() => {
+    document.body.classList.remove('not-loaded')
+    clearTimeout(c)
+  }, 1000)
+}
 
 const musicButton = document.getElementById('music-button')
 const music = document.getElementById('love-music')
@@ -39,7 +23,7 @@ const phrases = [
   'Día del Amor y la Amistad!',
   'Día del Amor y la Amistad!',
   'Día del Amor y la Amistad!',
-  'Día del Amor y la Amistad!',
+  'Día del Amor y la Amistad!'
 ]
 
 const textElement = document.getElementById('animated-text')
@@ -65,3 +49,27 @@ function showNextPhrase() {
 }
 
 window.addEventListener('load', showNextPhrase)
+
+document.addEventListener('mousemove', function (e) {
+  let body = document.getElementById('overlay-body')
+  let flower = document.createElement('div')
+  flower.setAttribute('id', 'mouse-flower')
+  let x = e.offsetX
+  let y = e.offsetY
+
+  flower.style.left = x + 'px'
+  flower.style.top = y + 'px'
+
+  let size = Math.random() * 50
+  flower.style.width = 20 + size + 'px'
+  flower.style.height = 20 + size + 'px'
+
+  let rotation = Math.random() * 360
+  flower.style.transform = `rotate(${rotation}deg)`
+
+  body.appendChild(flower)
+
+  setTimeout(function () {
+    flower.remove()
+  }, 4000)
+})
