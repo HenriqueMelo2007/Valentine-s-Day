@@ -11,19 +11,19 @@ const music = document.getElementById('love-music')
 musicButton.addEventListener('click', () => {
   if (music.paused) {
     music.play()
-    musicButton.textContent = '🎶'
+    musicButton.textContent = '❤️'
   } else {
     music.pause()
-    musicButton.textContent = '🎵'
+    musicButton.textContent = '💝'
   }
 })
 
 const phrases = [
-  'Día del Amor y la Amistad!',
-  'Día del Amor y la Amistad!',
-  'Día del Amor y la Amistad!',
-  'Día del Amor y la Amistad!',
-  'Día del Amor y la Amistad!'
+  'Día del Amor y la Amistad!❤️',
+  'OTHER MESSAGES HERE!',
+  'OTHER MESSAGES HERE!',
+  'OTHER MESSAGES HERE!',
+  'OTHER MESSAGES HERE!',
 ]
 
 const textElement = document.getElementById('animated-text')
