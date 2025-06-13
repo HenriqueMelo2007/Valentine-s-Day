@@ -21,8 +21,8 @@ musicButton.addEventListener('click', () => {
 const phrases = [
   'Día del Amor y la Amistad!❤️',
   'Não clique no coração ainda',
-  'Valentine’s Day❤️',
-  'Dia dos Namorados❤️',
+  'Valentine’s Day ❤️',
+  'Dia dos Namorados ❤️',
   'Separei uma música para você',
   'Clique no coração em 3...',
   '2...',
