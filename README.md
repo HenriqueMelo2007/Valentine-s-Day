@@ -16,10 +16,10 @@ git clone https://github.com/HenriqueMelo2007/Valentine-s-Day.git
 
 ## WHERE DO I CHANGE (MAIN THINGS)?
 
-Audio - replace "christian-leave-please-notice.mp3" in 📁Assets then in `index.html` line 26 change `src` attribute
-Cursor Flower - replace "blue-flower-icon.png" in 📁Assets then in `style.css` line 23 change the background using your image
-Button Emojis - `main.js` line 14 and 17. `index.html` line 23
-Main Flower Colors - many places in `style.css`
+- Audio - replace "christian-leave-please-notice.mp3" in 📁Assets then in `index.html` line 26 change `src` attribute
+- Cursor Flower - replace "blue-flower-icon.png" in 📁Assets then in `style.css` line 23 change the background using your image
+- Button Emojis - `main.js` line 14 and 17. `index.html` line 23
+- Main Flower Colors - many places in `style.css`
 
 ### References
 
