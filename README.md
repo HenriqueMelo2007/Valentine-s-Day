@@ -12,10 +12,6 @@ A beautiful _flower animation_ made with `HTML, CSS and JavaScript` to dedicate 
 git clone https://github.com/HenriqueMelo2007/Valentine-s-Day.git
 ```
 
-## YOUTUBE VIDEO
-
-[CLICK HERE TO SEE MY YOUTUBE VIDEO ABOUT THE PROJECT!]()
-
 ## WHERE DO I CHANGE (MAIN THINGS)?
 
 - Love Messages - `main.js` line 21
