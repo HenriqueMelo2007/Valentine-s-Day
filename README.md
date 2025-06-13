@@ -4,6 +4,8 @@
 
 A beautiful _flower animation_ made with `HTML, CSS and JavaScript` to dedicate to your partner along with a _declaration_ and a _song_ of your choice.
 
+[SEE IT IN YOUR BROWSER HERE!](https://henriquemelo2007.github.io/Valentine-s-Day/)
+
 ## GIT CLONE
 
 ```bash
@@ -24,5 +26,5 @@ git clone https://github.com/HenriqueMelo2007/Valentine-s-Day.git
 
 ### References
 
-[AslanovOrkhan](https://github.com/AslanovOrkhan/Js-Flowers-Animation) Repository
-[SP TECHNICAL](https://codepen.io/theArtsy07/pen/oNPOVqB) codepen.io
+- [AslanovOrkhan](https://github.com/AslanovOrkhan/Js-Flowers-Animation) Repository
+- [SP TECHNICAL](https://codepen.io/theArtsy07/pen/oNPOVqB) codepen.io
